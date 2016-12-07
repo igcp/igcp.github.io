@@ -31,7 +31,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://cdn.pixabay.com/photo/2016/03/11/15/34/madeira-1250495_960_720.jpg');
+  background-image: url('background.jpg');
   /* */
   background-size:auto!important;
 	background-repeat:no-repeat;
