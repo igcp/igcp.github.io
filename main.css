@@ -31,18 +31,24 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
-  background-size: cover;
+  background-image: url('https://cdn.pixabay.com/photo/2016/03/11/15/34/madeira-1250495_960_720.jpg');
+  /* */
+  background-size:auto!important;
+	background-repeat:no-repeat;
+	background-position: center top;
+  background-color: #ffffff;
+  /* */
+  /*background-size: cover;*/
   color: #ffffff;
   height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+  text-shadow: 0.25px 0.25px 0.25px #200000;
 }
 
 .jumbotron h2 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   margin: 0;
-  color: #fff;
+  color: #ffffff;
 }
 
 .jumbotron h3 {
@@ -62,7 +68,7 @@ section .row img {
 .btn.btn-primary {
   border-radius: 2px;
   border: 0px;
-  color: #fbd1d5;
+  color: #999999;
   text-shadow: none;
   background-color: #ffffff;
 }
